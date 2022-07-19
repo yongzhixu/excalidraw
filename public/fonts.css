@@ -11,3 +11,36 @@
   src: url("Cascadia.woff2");
   font-display: swap;
 }
+
+/* https://github.com/lxgw/kose-font */
+@font-face {
+  font-family: "XiaolaiSC";
+  src: url("XiaolaiSC-Regular.ttf");
+  font-display: swap;
+}
+
+/* https://www.fonts.net.cn/font-32322358803.html */
+@font-face {
+  font-family: "BsXiaoZhuan";
+  src: url("BeiShiDaShuoWenXiaoZhuan-1.ttf");
+  font-display: swap;
+}
+
+/* https://www.fonts.net.cn/font-32322358803.html */
+@font-face {
+  font-family: "PenCrane";
+  src: url("I.PenCrane-B.ttf");
+  font-display: swap;
+}
+/* https://www.cns11643.gov.tw/downloadList.jsp?ID=2&ID2=20 */
+@font-face {
+  font-family: "ShuoWenTrueType";
+  src: url("ebas927.ttf");
+  font-display: swap;
+}
+/* https://www.cns11643.gov.tw/downloadList.jsp?ID=2&ID2=20 */
+@font-face {
+  font-family: "S851tegaki";
+  src: url("851tegaki_zatsu_normal_0883.ttf");
+  font-display: swap;
+}

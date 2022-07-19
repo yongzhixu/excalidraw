@@ -14,6 +14,7 @@ import {
   FillHachureIcon,
   FillSolidIcon,
   FontFamilyCodeIcon,
+  FontFamilyChineseIcon,
   FontFamilyHandDrawnIcon,
   FontFamilyNormalIcon,
   FontSizeExtraLargeIcon,
@@ -669,6 +670,26 @@ export const actionChangeFontFamily = register({
         value: FONT_FAMILY.Cascadia,
         text: t("labels.code"),
         icon: <FontFamilyCodeIcon theme={appState.theme} />,
+      },
+      {
+        value: FONT_FAMILY.XiaolaiSC,
+        text: "小赖字体",
+        icon: <FontFamilyNormalIcon theme={appState.theme} />,
+      },
+      {
+        value: FONT_FAMILY.S851tegaki,
+        text: "851手書き雑フォント",
+        icon: <FontFamilyNormalIcon theme={appState.theme} />,
+      },
+      {
+        value: FONT_FAMILY.PenCrane,
+        text: "I.鋼筆鶴體",
+        icon: <FontFamilyChineseIcon theme={appState.theme} />,
+      },
+      {
+        value: FONT_FAMILY.ShuoWenTrueType,
+        text: "說文解字 True Type 字型",
+        icon: <FontFamilyChineseIcon theme={appState.theme} />,
       },
     ];
 
