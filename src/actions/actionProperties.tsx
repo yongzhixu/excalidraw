@@ -682,6 +682,11 @@ export const actionChangeFontFamily = register({
         icon: <FontFamilyNormalIcon theme={appState.theme} />,
       },
       {
+        value: FONT_FAMILY.SetoFont,
+        text: "SetoFont",
+        icon: <FontFamilyNormalIcon theme={appState.theme} />,
+      },
+      {
         value: FONT_FAMILY.PenCrane,
         text: "I.鋼筆鶴體",
         icon: <FontFamilyChineseIcon theme={appState.theme} />,

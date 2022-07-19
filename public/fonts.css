@@ -44,3 +44,9 @@
   src: url("851tegaki_zatsu_normal_0883.ttf");
   font-display: swap;
 }
+/* https://www.cns11643.gov.tw/downloadList.jsp?ID=2&ID2=20 */
+@font-face {
+  font-family: "SetoFont";
+  src: url("sjis_sp_setofont.ttf");
+  font-display: swap;
+}

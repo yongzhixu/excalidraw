@@ -74,6 +74,7 @@ export const FONT_FAMILY = {
   S851tegaki: 5,
   PenCrane: 6,
   ShuoWenTrueType: 7,
+  SetoFont: 8,
 };
 
 export const THEME = {
