@@ -391,6 +391,7 @@
   .App-menu__left {
     overflow-y: auto;
     box-shadow: var(--shadow-island);
+    max-width: 250px;
   }
 
   .dropdown-select {
